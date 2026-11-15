@@ -1,6 +1,14 @@
 {
   "name": "plamo-page-translator",
   "description": "Local PLaMo 3 Translate page translator for Firefox (Zen) and Chrome",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minetake01/plamo-page-translator.git"
+  },
+  "homepage": "https://github.com/minetake01/plamo-page-translator",
+  "bugs": {
+    "url": "https://github.com/minetake01/plamo-page-translator/issues"
+  },
   "private": true,
   "version": "0.1.0",
   "license": "MIT",
