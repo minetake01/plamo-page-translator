@@ -1,0 +1,9 @@
+node_modules/
+.output/
+.wxt/
+artifacts/e2e/
+artifacts/*/before.png
+artifacts/*/after.png
+artifacts/*/overlay.png
+artifacts/*/report.html
+artifacts/*/summary.json

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PLaMo Page Translator</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>PLaMo Page Translator</h1>
+      <p id="server-status" class="muted">サーバ状態を確認中…</p>
+    </div>
+    <span id="badge" class="badge">—</span>
+  </header>
+
+  <main>
+    <label class="field">
+      <span>翻訳先</span>
+      <select id="target"></select>
+    </label>
+
+    <div class="row">
+      <button id="translate" class="primary">翻訳する</button>
+      <button id="restore">原文に戻す</button>
+    </div>
+
+    <label class="check">
+      <input id="site-disabled" type="checkbox" />
+      <span>このサイトでは自動翻訳しない</span>
+    </label>
+
+    <button id="pick" class="wide">領域を選択（翻訳する/しない）</button>
+
+    <p id="status" class="status">待機中</p>
+  </main>
+
+  <footer>
+    <button id="options" class="link">設定</button>
+    <span class="muted">Local PLaMo</span>
+  </footer>
+
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>

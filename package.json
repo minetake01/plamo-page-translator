@@ -1,0 +1,28 @@
+{
+  "name": "plamo-page-translator",
+  "description": "Local PLaMo 3 Translate page translator for Firefox (Zen) and Chrome",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt -b firefox --mv3",
+    "dev:chrome": "wxt -b chrome --mv3",
+    "build": "node scripts/build.mjs firefox",
+    "build:chrome": "node scripts/build.mjs chrome",
+    "zip": "wxt zip -b firefox --mv3",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "node test/e2e/smoke.mjs",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "happy-dom": "^20.11.2",
+    "playwright-core": "^1.65.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.5",
+    "vitest": "^4.1.10",
+    "web-ext": "^10.5.0",
+    "wxt": "^0.21.3"
+  }
+}
