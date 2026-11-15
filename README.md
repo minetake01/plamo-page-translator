@@ -1,7 +1,12 @@
 # PLaMo Page Translator
 
+[![CI](https://github.com/minetake01/plamo-page-translator/actions/workflows/ci.yml/badge.svg)](https://github.com/minetake01/plamo-page-translator/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ローカルの PLaMo 3 Translate（OpenAI 互換）で Web ページを訳文のみに置き換える
 Firefox（Zen）/ Chrome 拡張。MVP 実装。
+
+リポジトリ: https://github.com/minetake01/plamo-page-translator
 
 ## 現在できること
 
