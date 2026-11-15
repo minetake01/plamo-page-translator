@@ -21,6 +21,7 @@ Firefox（Zen）/ Chrome 拡張。MVP 実装。
 
 ```powershell
 pnpm install
+pnpm types          # .wxt の型を生成（IDE 用）
 pnpm build          # Firefox
 pnpm build:chrome   # Chrome
 pnpm test           # unit tests
